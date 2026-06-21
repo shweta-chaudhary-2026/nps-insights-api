@@ -1,0 +1,482 @@
+{
+  "generated_at": "2026-06-21T21:03:50.029811",
+  "statistics": {
+    "total_records": 2589,
+    "promoters": {
+      "count": 2117,
+      "percentage": 81.8
+    },
+    "detractors": {
+      "count": 284,
+      "percentage": 11.0
+    },
+    "passives": {
+      "count": 188,
+      "percentage": 7.3
+    },
+    "valid_comments": {
+      "count": 1873,
+      "percentage": 72.3
+    },
+    "nps_score": 70.8
+  },
+  "positive_drivers": [
+    {
+      "driver_name": "Speed & Responsiveness",
+      "count": 485,
+      "total_comments": 1488,
+      "percentage": 32.6,
+      "top_themes": [
+        {
+          "theme": "Employment Verification & Letters",
+          "count": 51,
+          "percentage": 10.5
+        },
+        {
+          "theme": "Employee Data & Org Updates",
+          "count": 37,
+          "percentage": 7.6
+        },
+        {
+          "theme": "Employee Relations & Policy",
+          "count": 33,
+          "percentage": 6.8
+        },
+        {
+          "theme": "Performance Improvement Plan & Low Performance",
+          "count": 32,
+          "percentage": 6.6
+        },
+        {
+          "theme": "Separation Process & System Management",
+          "count": 19,
+          "percentage": 3.9
+        }
+      ]
+    },
+    {
+      "driver_name": "Clarity of Guidance & Instructions",
+      "count": 197,
+      "total_comments": 1488,
+      "percentage": 13.2,
+      "top_themes": [
+        {
+          "theme": "Performance Improvement Plan & Low Performance",
+          "count": 36,
+          "percentage": 18.3
+        },
+        {
+          "theme": "Leave & Absence Management",
+          "count": 11,
+          "percentage": 5.6
+        },
+        {
+          "theme": "Payroll Payment & Salary Discrepancy",
+          "count": 10,
+          "percentage": 5.1
+        },
+        {
+          "theme": "Employment Verification & Letters",
+          "count": 7,
+          "percentage": 3.6
+        },
+        {
+          "theme": "Employee Data & Org Updates",
+          "count": 7,
+          "percentage": 3.6
+        }
+      ]
+    },
+    {
+      "driver_name": "Problem Resolution & Effectiveness",
+      "count": 166,
+      "total_comments": 1488,
+      "percentage": 11.2,
+      "top_themes": [
+        {
+          "theme": "Expense Report Submission & Concur Errors",
+          "count": 12,
+          "percentage": 7.2
+        },
+        {
+          "theme": "Employee Relations & Policy",
+          "count": 7,
+          "percentage": 4.2
+        },
+        {
+          "theme": "Corporate Card Application & Access",
+          "count": 7,
+          "percentage": 4.2
+        },
+        {
+          "theme": "Payslip & Payroll Documents",
+          "count": 6,
+          "percentage": 3.6
+        },
+        {
+          "theme": "Reimbursement, Refunds & Reconciliation",
+          "count": 6,
+          "percentage": 3.6
+        }
+      ]
+    }
+  ],
+  "negative_drivers": [
+    {
+      "driver_name": "Delays & Slow Resolution",
+      "count": 34,
+      "total_comments": 264,
+      "percentage": 12.9,
+      "top_themes": [
+        {
+          "theme": "Onboarding",
+          "count": 2,
+          "percentage": 5.9
+        },
+        {
+          "theme": "Promotion, Role Change & Salary Adjustment",
+          "count": 2,
+          "percentage": 5.9
+        },
+        {
+          "theme": "Employee Data, Org & Profile Updates",
+          "count": 2,
+          "percentage": 5.9
+        },
+        {
+          "theme": "Payslip & Payroll Documents",
+          "count": 2,
+          "percentage": 5.9
+        },
+        {
+          "theme": "Mobility Systems & Tool Support",
+          "count": 2,
+          "percentage": 5.9
+        }
+      ]
+    },
+    {
+      "driver_name": "Lack of Response & Communication",
+      "count": 17,
+      "total_comments": 264,
+      "percentage": 6.4,
+      "top_themes": [
+        {
+          "theme": "Mobility Process Guidance",
+          "count": 2,
+          "percentage": 11.8
+        },
+        {
+          "theme": "Payroll Payment & Salary Discrepancy",
+          "count": 1,
+          "percentage": 5.9
+        },
+        {
+          "theme": "Learning Access & Technical Errors",
+          "count": 1,
+          "percentage": 5.9
+        },
+        {
+          "theme": "Corporate card - application & activation",
+          "count": 1,
+          "percentage": 5.9
+        },
+        {
+          "theme": "Pension & Retirement Contributions",
+          "count": 1,
+          "percentage": 5.9
+        }
+      ]
+    },
+    {
+      "driver_name": "Incorrect Information & Errors",
+      "count": 9,
+      "total_comments": 264,
+      "percentage": 3.4,
+      "top_themes": [
+        {
+          "theme": "Employee Data, Org & Profile Updates",
+          "count": 2,
+          "percentage": 22.2
+        },
+        {
+          "theme": "Payroll Payments, Deductions and Discrepancies",
+          "count": 1,
+          "percentage": 11.1
+        },
+        {
+          "theme": "Credit Limit & Card Management",
+          "count": 1,
+          "percentage": 11.1
+        },
+        {
+          "theme": "Corporate Card Application & Access",
+          "count": 1,
+          "percentage": 11.1
+        },
+        {
+          "theme": "Employee Relations & Policy",
+          "count": 1,
+          "percentage": 11.1
+        }
+      ]
+    }
+  ],
+  "filter_options": {
+    "hr_functions": [
+      "Benefits",
+      "Compensation",
+      "HR Operations",
+      "HRP",
+      "Mobility",
+      "Offboarding",
+      "Payroll",
+      "Talent Acquisition",
+      "Talent, Leadership & Culture",
+      "Travel & Expense",
+      "Workforce Relations"
+    ],
+    "countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Bulgaria",
+      "Canada",
+      "Chile",
+      "China",
+      "China, Hong Kong SAR",
+      "Colombia",
+      "Costa Rica",
+      "Croatia",
+      "Czech Republic",
+      "Denmark",
+      "Ecuador",
+      "Egypt",
+      "France",
+      "Germany",
+      "Hong Kong",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Latvia",
+      "Lithuania",
+      "Malaysia",
+      "Mexico",
+      "Morocco",
+      "Netherlands",
+      "Norway",
+      "Pakistan",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Republic of Korea",
+      "Romania",
+      "Saudi Arabia",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "South Africa",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Taiwan",
+      "Thailand",
+      "Trinidad and Tobago",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Venezuela (Bolivarian Republic of)",
+      "World Wide"
+    ],
+    "tiers": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3"
+    ],
+    "themes": [
+      "Access & System Issues",
+      "Annual Evaluation",
+      "Application",
+      "Application Status & Candidate Communication",
+      "Assessment Access & Technical Issues",
+      "Asset Return & Device Handling",
+      "Assignment, Project & Workforce Planning",
+      "Assignment, Relocation & Localization",
+      "Assignments & HCAM",
+      "Attendance, Leave & Time Management",
+      "Background Check & Compliance",
+      "Bank Details Update",
+      "Bank and Payment Information",
+      "Bank, Address & Payroll Master Data",
+      "Benefits Administration & Policy Guidance",
+      "Benefits Administration & System Access",
+      "Bonus & GDP",
+      "Bonus & Variable Pay (GDP/CBP/PAVP)",
+      "Bonus and Variable Pay",
+      "Bonus, Incentives & Commissions",
+      "Bonus, Overtime & Variable Pay",
+      "Candidate Profile & Account Updates",
+      "Car, Travel & Mobility Benefits",
+      "Career progression & role changes",
+      "Compensation & Payroll after Mobility",
+      "Compensation Documents and Statements",
+      "Compensation Operations (Process/Policy)",
+      "Compensation Platform Access and Errors",
+      "Compensation Process and Policy Guidance",
+      "Compensation Statements, Letters & Salary Information",
+      "Corporate Card Application & Access",
+      "Corporate Health",
+      "Corporate card - application & activation",
+      "Corporate card - credit limit & declines",
+      "Credit Limit & Card Management",
+      "Data Loads & Corrections",
+      "Deductions & Withholding",
+      "Disciplinary Policy",
+      "Disciplinary, Absence & Misconduct",
+      "EDM",
+      "EDM - Employment Data",
+      "EDM - Letters",
+      "ESP/EEP Compensation Planning & Tool Errors",
+      "Employee Data & Org Updates",
+      "Employee Data, Org & Profile Updates",
+      "Employee Relations",
+      "Employee Relations & Policy",
+      "Employment Documents & Letters",
+      "Employment Letters & Separation Costing",
+      "Employment Verification & Letters",
+      "Equity and Stock Plans",
+      "Equity, ESPP & Stock Plans",
+      "Evaluation",
+      "Exit Documentation & Employment Verification",
+      "Expense Report Submission & Concur Errors",
+      "Expense report submission & system errors",
+      "Final Settlement & Payments",
+      "Final Settlement & Separation Pay",
+      "Final Settlement, Payroll & Benefits",
+      "Full & Final Settlement",
+      "Global Benefits",
+      "Goals & performance planning",
+      "Gratuity",
+      "HR Document Processing",
+      "HR Documentation & Employee Records",
+      "HR Partner Contact & Routing",
+      "HR Policy, Contacts & Guidance",
+      "HR Systems & Access",
+      "Immigration & Visa Support",
+      "Insurance & Medical Benefits",
+      "Interview Scheduling",
+      "Joining Date Change",
+      "Leadership & inclusion",
+      "Learning & Credential Completion Issues",
+      "Learning Access & Technical Errors",
+      "Learning completion & access",
+      "Leave & Absence Management",
+      "Leave Management & Policy",
+      "Leave, Time & Attendance",
+      "Leave, Time & Benefits",
+      "Leaves",
+      "Location, Office Access & Facilities",
+      "Meal Card & Allowance Benefits",
+      "Meal Card, Allowances & Flexible Benefits",
+      "Mobility",
+      "Mobility Process Guidance",
+      "Mobility Systems & Tool Support",
+      "Notice Period & Early Release",
+      "Offboarding Process",
+      "Offer & Compensation",
+      "Offer Letter & Documents",
+      "Office Presence & Attendance",
+      "Onboarding",
+      "Org & Manager Changes",
+      "Overtime, Shift and Allowances",
+      "PF & Retirement Contributions",
+      "PTU, Profit Sharing & Bonus Payments",
+      "Pay Ranges and Compa Ratio",
+      "Payroll Deduction & Recovery",
+      "Payroll Deductions & Settlement",
+      "Payroll Discrepancies",
+      "Payroll Payment & Salary Discrepancy",
+      "Payroll Payments, Deductions and Discrepancies",
+      "Payroll Policy & Guidance",
+      "Payroll Portal & Access Issues",
+      "Payroll Schedule & Pay Date",
+      "Payroll System Access/Errors",
+      "Payroll discrepancies",
+      "Payroll, Compensation & Benefits",
+      "Payroll, Pay Discrepancies & Allowances",
+      "Payroll, Tax & Compensation",
+      "Payslip & Pay Statement Access",
+      "Payslip & Payroll Documents",
+      "Payslips & statements",
+      "Payslips and Tax Documents",
+      "Pension & Retirement Contributions",
+      "Performance Development",
+      "Performance Evaluation & Goals",
+      "Performance Improvement Plan & Low Performance",
+      "Performance management (PIP & probation)",
+      "Performance, Disciplinary & Separation",
+      "Policy & Process Guidance",
+      "Policy, Compliance & Ethics",
+      "Probation & Separation Guidance",
+      "Process & Contact Queries",
+      "Promotion & Career Progression",
+      "Promotion, Role Change & Salary Adjustment",
+      "Provident Fund (PF/EPFO)",
+      "RTO",
+      "Recognition and Awards",
+      "Recognition, Awards & BluePoints",
+      "Recruitment Query",
+      "Referrals",
+      "Refunds, overpayments & credit balance",
+      "Rehire & Eligibility Checks",
+      "Reimbursement, Refunds & Reconciliation",
+      "Remote Work, RTO & Accommodation",
+      "Requisition & Job Posting Management",
+      "Requisitions & TA Systems",
+      "Resignation Process",
+      "Resignation Withdrawal & Cancellation",
+      "Retirement & Benefits",
+      "Retirement & Pension Benefits",
+      "Retirement & Voluntary Programs",
+      "Rewards, Recognition & Savings Programs",
+      "Separation & Offboarding",
+      "Separation Date & LWD Updates",
+      "Separation Date & Notice Period Management",
+      "Separation Process",
+      "Separation Process & System Management",
+      "Staffing, Assignment & Skill Alignment",
+      "System & Portal Access",
+      "System Access, Data Loads & Workflow Configuration",
+      "System, Replication and Configuration",
+      "Systems, Tools & Access",
+      "TA Systems & Workflow",
+      "Talent Compliance",
+      "Talent Policy & Process Guidance",
+      "Tax & Compliance",
+      "Tax Declaration & Regime",
+      "Tax Documents & Certificates",
+      "Tax Forms & Certificates",
+      "Tax Withholding & Tax Clarification",
+      "Tax documents",
+      "Tax, Benefits & Retirement Contributions",
+      "Testing / Non-actionable Records",
+      "Time Off & Leave Management",
+      "Time, Leave & Absence Pay",
+      "Time, Overtime & Leave Management",
+      "Travel Booking & Policy Guidance",
+      "Wellbeing, Accommodation & Occupational Health",
+      "Work Arrangement, RTO & Location",
+      "Workflow & Template Configuration",
+      "Workplace Behavior & Employee Concerns",
+      "Workplace Policy Guidance"
+    ]
+  }
+}

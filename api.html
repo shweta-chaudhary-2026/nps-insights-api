@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+        // Get URL parameters
+        const params = new URLSearchParams(window.location.search);
+        const sentiment = (params.get('sentiment') || 'positive').toLowerCase();
+        const hrFunction = params.get('hr_function');
+        const country = params.get('country');
+        const tier = params.get('tier');
+        const theme = params.get('theme');
+        const showCountries = params.get('show_countries') === 'true';
+        
+        // Load and process data
+        fetch('nps_insights_data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Select drivers based on sentiment
+                let drivers = sentiment === 'positive' ? data.positive_drivers : data.negative_drivers;
+                
+                // Apply filters
+                if (hrFunction) {
+                    drivers = drivers.filter(d => d.hr_function && d.hr_function.toLowerCase() === hrFunction.toLowerCase());
+                }
+                if (country) {
+                    drivers = drivers.filter(d => d.country && d.country.toLowerCase() === country.toLowerCase());
+                }
+                if (tier) {
+                    drivers = drivers.filter(d => d.tier && d.tier.toLowerCase() === tier.toLowerCase());
+                }
+                if (theme) {
+                    drivers = drivers.filter(d => 
+                        d.top_themes && d.top_themes.some(t => 
+                            t.theme.toLowerCase().includes(theme.toLowerCase())
+                        )
+                    );
+                }
+                
+                // Exclude drivers with count < 1
+                drivers = drivers.filter(d => d.count >= 1);
+                
+                // Sort by count descending
+                drivers.sort((a, b) => b.count - a.count);
+                
+                // Take top 3
+                drivers = drivers.slice(0, 3);
+                
+                // Format output
+                let output = '';
+                const sentimentLabel = sentiment === 'positive' ? 'Promoter' : 'Detractor';
+                
+                drivers.forEach((driver, index) => {
+                    const description = driver.description || 'No description available';
+                    output += `${index + 1}) ${driver.driver_name} (${driver.count} of ${driver.total_comments} valid ${sentimentLabel} comment; ${driver.percentage}%) ${description}. `;
+                    
+                    // Show countries or themes based on parameter
+                    if (showCountries && driver.top_countries && driver.top_countries.length > 0) {
+                        output += `Top five contributing countries with their percentages (within this driver): `;
+                        driver.top_countries.forEach((countryData, countryIndex) => {
+                            output += `${countryIndex + 1})${countryData.country} ${countryData.percentage}%. `;
+                        });
+                    } else if (driver.top_themes && driver.top_themes.length > 0) {
+                        output += `Top five contributing themes with their percentages (within this driver): `;
+                        driver.top_themes.forEach((theme, themeIndex) => {
+                            output += `${themeIndex + 1})${theme.theme} ${theme.percentage}%. `;
+                        });
+                    }
+                    
+                    output += '\n\n';
+                });
+                
+                if (output === '') {
+                    output = `No ${sentimentLabel.toLowerCase()} drivers found matching the specified filters.`;
+                }
+                
+                // Return as JSON
+                const result = {
+                    text: output.trim()
+                };
+                
+                // Output JSON
+                document.body.innerHTML = '<pre>' + JSON.stringify(result, null, 2) + '</pre>';
+            })
+            .catch(error => {
+                const errorResult = {
+                    error: 'Failed to load insights data',
+                    message: error.message
+                };
+                document.body.innerHTML = '<pre>' + JSON.stringify(errorResult, null, 2) + '</pre>';
+            });
+    </script>
+</head>
+<body>
+    <pre>Loading...</pre>
+</body>
+</html>
