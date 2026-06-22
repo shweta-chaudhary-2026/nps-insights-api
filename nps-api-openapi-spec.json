@@ -1,0 +1,228 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "NPS Insights API",
+    "version": "1.0.0",
+    "description": "API for retrieving NPS driver insights from GitHub Pages. This API provides access to positive and negative drivers with filtering capabilities."
+  },
+  "servers": [
+    {
+      "url": "https://shweta-chaudhary-2026.github.io/nps-insights-api",
+      "description": "GitHub Pages Production Server"
+    }
+  ],
+  "paths": {
+    "/api.json": {
+      "get": {
+        "summary": "Get NPS insights data",
+        "description": "Retrieves complete NPS insights data including positive drivers, negative drivers, statistics, and filter options",
+        "operationId": "getNPSInsights",
+        "tags": ["NPS Insights"],
+        "responses": {
+          "200": {
+            "description": "Successful response with NPS insights data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "positive_drivers": {
+                      "type": "array",
+                      "description": "List of positive NPS drivers",
+                      "items": {
+                        "$ref": "#/components/schemas/Driver"
+                      }
+                    },
+                    "negative_drivers": {
+                      "type": "array",
+                      "description": "List of negative NPS drivers",
+                      "items": {
+                        "$ref": "#/components/schemas/Driver"
+                      }
+                    },
+                    "statistics": {
+                      "$ref": "#/components/schemas/Statistics"
+                    },
+                    "filter_options": {
+                      "$ref": "#/components/schemas/FilterOptions"
+                    },
+                    "last_updated": {
+                      "type": "string",
+                      "description": "Timestamp of last data update",
+                      "example": "2026-06-22T11:52:00Z"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "API endpoint not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "example": "Resource not found"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Driver": {
+        "type": "object",
+        "description": "NPS driver with associated metrics and themes",
+        "properties": {
+          "driver_name": {
+            "type": "string",
+            "description": "Name of the driver",
+            "example": "Quick Response Time"
+          },
+          "count": {
+            "type": "integer",
+            "description": "Number of comments mentioning this driver",
+            "example": 450
+          },
+          "total_comments": {
+            "type": "integer",
+            "description": "Total number of comments in the category",
+            "example": 1000
+          },
+          "percentage": {
+            "type": "number",
+            "format": "float",
+            "description": "Percentage of total comments",
+            "example": 45.0
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed description of the driver",
+            "example": "HR provides fast and timely responses to employee queries and requests."
+          },
+          "top_themes": {
+            "type": "array",
+            "description": "Top contributing themes for this driver",
+            "items": {
+              "$ref": "#/components/schemas/Theme"
+            }
+          },
+          "hr_function": {
+            "type": "string",
+            "description": "HR function category",
+            "example": "Payroll",
+            "enum": ["Benefits", "Learning", "Payroll", "Recruitment"]
+          },
+          "country": {
+            "type": "string",
+            "description": "Country where feedback was collected",
+            "example": "India",
+            "enum": ["Germany", "India", "UK", "USA"]
+          },
+          "tier": {
+            "type": "string",
+            "description": "Service tier level",
+            "example": "Tier 1",
+            "enum": ["Tier 1", "Tier 2", "Tier 3"]
+          }
+        },
+        "required": ["driver_name", "count", "total_comments", "percentage"]
+      },
+      "Theme": {
+        "type": "object",
+        "description": "Theme contributing to a driver",
+        "properties": {
+          "theme": {
+            "type": "string",
+            "description": "Name of the theme",
+            "example": "Fast resolution"
+          },
+          "percentage": {
+            "type": "number",
+            "format": "float",
+            "description": "Percentage contribution within the driver",
+            "example": 60.0
+          },
+          "count": {
+            "type": "integer",
+            "description": "Number of comments for this theme",
+            "example": 270
+          }
+        },
+        "required": ["theme", "percentage", "count"]
+      },
+      "Statistics": {
+        "type": "object",
+        "description": "Overall NPS statistics",
+        "properties": {
+          "total_responses": {
+            "type": "integer",
+            "description": "Total number of survey responses",
+            "example": 2000
+          },
+          "promoters": {
+            "type": "integer",
+            "description": "Number of promoter responses",
+            "example": 1000
+          },
+          "detractors": {
+            "type": "integer",
+            "description": "Number of detractor responses",
+            "example": 1000
+          },
+          "nps_score": {
+            "type": "number",
+            "format": "float",
+            "description": "Net Promoter Score",
+            "example": 0.0
+          }
+        },
+        "required": ["total_responses", "promoters", "detractors", "nps_score"]
+      },
+      "FilterOptions": {
+        "type": "object",
+        "description": "Available filter options for querying data",
+        "properties": {
+          "hr_functions": {
+            "type": "array",
+            "description": "List of available HR functions",
+            "items": {
+              "type": "string"
+            },
+            "example": ["Benefits", "Learning", "Payroll", "Recruitment"]
+          },
+          "countries": {
+            "type": "array",
+            "description": "List of available countries",
+            "items": {
+              "type": "string"
+            },
+            "example": ["Germany", "India", "UK", "USA"]
+          },
+          "tiers": {
+            "type": "array",
+            "description": "List of available service tiers",
+            "items": {
+              "type": "string"
+            },
+            "example": ["Tier 1", "Tier 2", "Tier 3"]
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "NPS Insights",
+      "description": "Operations for retrieving NPS driver insights"
+    }
+  ]
+}
