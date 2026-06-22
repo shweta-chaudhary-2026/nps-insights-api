@@ -1,0 +1,339 @@
+{
+  "positive_drivers": [
+    {
+      "driver_name": "Clarity of Guidance & Instructions",
+      "count": 4,
+      "total_comments": 47,
+      "percentage": 8.5,
+      "description": "HR provides direction that is clear, structured, and easy for employees to understand and act upon.",
+      "top_themes": [
+        {
+          "theme": "Time & Attendance",
+          "percentage": 50.0,
+          "count": 2
+        },
+        {
+          "theme": "Compensation",
+          "percentage": 25.0,
+          "count": 1
+        },
+        {
+          "theme": "Compensation Letters & Statements",
+          "percentage": 8.3,
+          "count": 1
+        },
+        {
+          "theme": "Bonus & GDP",
+          "percentage": 8.3,
+          "count": 1
+        },
+        {
+          "theme": "Pay Ranges & PMR",
+          "percentage": 8.3,
+          "count": 1
+        }
+      ],
+      "hr_function": "Payroll",
+      "country": "India",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Quick Response Time",
+      "count": 450,
+      "total_comments": 1000,
+      "percentage": 45.0,
+      "description": "HR provides fast and timely responses to employee queries and requests.",
+      "top_themes": [
+        {
+          "theme": "Fast resolution",
+          "percentage": 60.0,
+          "count": 270
+        },
+        {
+          "theme": "Timely support",
+          "percentage": 25.0,
+          "count": 113
+        },
+        {
+          "theme": "Quick turnaround",
+          "percentage": 15.0,
+          "count": 68
+        }
+      ],
+      "hr_function": "Payroll",
+      "country": "India",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Helpful Staff",
+      "count": 328,
+      "total_comments": 1000,
+      "percentage": 32.8,
+      "description": "HR team members are knowledgeable, friendly, and provide professional support to employees.",
+      "top_themes": [
+        {
+          "theme": "Knowledgeable team",
+          "percentage": 55.0,
+          "count": 180
+        },
+        {
+          "theme": "Friendly service",
+          "percentage": 30.0,
+          "count": 98
+        },
+        {
+          "theme": "Professional support",
+          "percentage": 15.0,
+          "count": 49
+        }
+      ],
+      "hr_function": "Benefits",
+      "country": "USA",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Easy to Use System",
+      "count": 222,
+      "total_comments": 1000,
+      "percentage": 22.2,
+      "description": "HR systems and tools are intuitive, user-friendly, and easy to navigate.",
+      "top_themes": [
+        {
+          "theme": "Intuitive interface",
+          "percentage": 50.0,
+          "count": 111
+        },
+        {
+          "theme": "Simple navigation",
+          "percentage": 30.0,
+          "count": 67
+        },
+        {
+          "theme": "User-friendly design",
+          "percentage": 20.0,
+          "count": 44
+        }
+      ],
+      "hr_function": "Recruitment",
+      "country": "UK",
+      "tier": "Tier 2"
+    },
+    {
+      "driver_name": "Accurate Information",
+      "count": 195,
+      "total_comments": 1000,
+      "percentage": 19.5,
+      "description": "HR provides correct, reliable, and up-to-date information to employees.",
+      "top_themes": [
+        {
+          "theme": "Correct data",
+          "percentage": 55.0,
+          "count": 107
+        },
+        {
+          "theme": "Reliable information",
+          "percentage": 30.0,
+          "count": 59
+        },
+        {
+          "theme": "Up-to-date records",
+          "percentage": 15.0,
+          "count": 29
+        }
+      ],
+      "hr_function": "Payroll",
+      "country": "Germany",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Comprehensive Training",
+      "count": 168,
+      "total_comments": 1000,
+      "percentage": 16.8,
+      "description": "HR offers detailed training courses with practical examples and good learning materials.",
+      "top_themes": [
+        {
+          "theme": "Detailed courses",
+          "percentage": 50.0,
+          "count": 84
+        },
+        {
+          "theme": "Practical examples",
+          "percentage": 30.0,
+          "count": 50
+        },
+        {
+          "theme": "Good materials",
+          "percentage": 20.0,
+          "count": 34
+        }
+      ],
+      "hr_function": "Learning",
+      "country": "India",
+      "tier": "Tier 2"
+    }
+  ],
+  "negative_drivers": [
+    {
+      "driver_name": "System Downtime",
+      "count": 385,
+      "total_comments": 1000,
+      "percentage": 38.5,
+      "description": "HR systems experience frequent outages and unavailability issues.",
+      "top_themes": [
+        {
+          "theme": "Frequent outages",
+          "percentage": 55.0,
+          "count": 212
+        },
+        {
+          "theme": "System unavailable",
+          "percentage": 30.0,
+          "count": 116
+        },
+        {
+          "theme": "Access issues",
+          "percentage": 15.0,
+          "count": 58
+        }
+      ],
+      "hr_function": "Benefits",
+      "country": "USA",
+      "tier": "Tier 2"
+    },
+    {
+      "driver_name": "Slow Processing",
+      "count": 283,
+      "total_comments": 1000,
+      "percentage": 28.3,
+      "description": "HR processes take too long with delayed responses and slow system performance.",
+      "top_themes": [
+        {
+          "theme": "Long wait times",
+          "percentage": 50.0,
+          "count": 142
+        },
+        {
+          "theme": "Delayed responses",
+          "percentage": 30.0,
+          "count": 85
+        },
+        {
+          "theme": "Slow system performance",
+          "percentage": 20.0,
+          "count": 57
+        }
+      ],
+      "hr_function": "Payroll",
+      "country": "India",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Complex Procedures",
+      "count": 187,
+      "total_comments": 1000,
+      "percentage": 18.7,
+      "description": "HR procedures involve too many steps with confusing processes and unclear instructions.",
+      "top_themes": [
+        {
+          "theme": "Too many steps",
+          "percentage": 45.0,
+          "count": 84
+        },
+        {
+          "theme": "Confusing process",
+          "percentage": 35.0,
+          "count": 65
+        },
+        {
+          "theme": "Unclear instructions",
+          "percentage": 20.0,
+          "count": 37
+        }
+      ],
+      "hr_function": "Learning",
+      "country": "Germany",
+      "tier": "Tier 3"
+    },
+    {
+      "driver_name": "Poor Communication",
+      "count": 156,
+      "total_comments": 1000,
+      "percentage": 15.6,
+      "description": "HR communication lacks updates, clarity, and sufficient information.",
+      "top_themes": [
+        {
+          "theme": "No updates",
+          "percentage": 50.0,
+          "count": 78
+        },
+        {
+          "theme": "Unclear messages",
+          "percentage": 30.0,
+          "count": 47
+        },
+        {
+          "theme": "Lack of information",
+          "percentage": 20.0,
+          "count": 31
+        }
+      ],
+      "hr_function": "Recruitment",
+      "country": "UK",
+      "tier": "Tier 2"
+    },
+    {
+      "driver_name": "Limited Support Hours",
+      "count": 142,
+      "total_comments": 1000,
+      "percentage": 14.2,
+      "description": "HR support is not available 24/7 with limited timezone coverage and weekend closures.",
+      "top_themes": [
+        {
+          "theme": "Not available 24/7",
+          "percentage": 55.0,
+          "count": 78
+        },
+        {
+          "theme": "Closed on weekends",
+          "percentage": 30.0,
+          "count": 43
+        },
+        {
+          "theme": "Limited timezone coverage",
+          "percentage": 15.0,
+          "count": 21
+        }
+      ],
+      "hr_function": "Benefits",
+      "country": "USA",
+      "tier": "Tier 1"
+    }
+  ],
+  "statistics": {
+    "total_responses": 2000,
+    "promoters": 1000,
+    "detractors": 1000,
+    "nps_score": 0.0
+  },
+  "filter_options": {
+    "hr_functions": [
+      "Benefits",
+      "Learning",
+      "Payroll",
+      "Recruitment"
+    ],
+    "countries": [
+      "Germany",
+      "India",
+      "UK",
+      "USA"
+    ],
+    "tiers": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3"
+    ]
+  },
+  "last_updated": "2026-06-22T11:52:00Z"
+}
