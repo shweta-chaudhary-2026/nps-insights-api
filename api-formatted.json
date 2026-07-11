@@ -1,0 +1,177 @@
+{
+  "formatted_response": "📊 Top 3 Positive Drivers:\n\n1️⃣ Quick Response Time\n   📈 450 of 1000 comments (45%)\n   💡 HR provides fast and timely responses to employee queries and requests.\n   \n   Top themes:\n   • Fast resolution (60%)\n   • Timely support (25%)\n   • Quick turnaround (15%)\n\n2️⃣ Helpful Staff\n   📈 328 of 1000 comments (32.8%)\n   💡 HR team members are knowledgeable, friendly, and provide professional support to employees.\n   \n   Top themes:\n   • Knowledgeable team (55%)\n   • Friendly service (30%)\n   • Professional support (15%)\n\n3️⃣ Easy to Use System\n   📈 222 of 1000 comments (22.2%)\n   💡 HR systems and tools are intuitive, user-friendly, and easy to navigate.\n   \n   Top themes:\n   • Intuitive interface (50%)\n   • Simple navigation (30%)\n   • User-friendly design (20%)",
+  "formatted_negative": "📊 Top 3 Negative Drivers:\n\n1️⃣ System Downtime\n   📉 385 of 1000 comments (38.5%)\n   ⚠️ HR systems experience frequent outages and unavailability issues.\n   \n   Top themes:\n   • Frequent outages (55%)\n   • System unavailable (30%)\n   • Access issues (15%)\n\n2️⃣ Slow Processing\n   📉 283 of 1000 comments (28.3%)\n   ⚠️ HR processes take too long with delayed responses and slow system performance.\n   \n   Top themes:\n   • Long wait times (50%)\n   • Delayed responses (30%)\n   • Slow system performance (20%)\n\n3️⃣ Complex Procedures\n   📉 187 of 1000 comments (18.7%)\n   ⚠️ HR procedures involve too many steps with confusing processes and unclear instructions.\n   \n   Top themes:\n   • Too many steps (45%)\n   • Confusing process (35%)\n   • Unclear instructions (20%)",
+  "positive_drivers": [
+    {
+      "driver_name": "Quick Response Time",
+      "count": 450,
+      "total_comments": 1000,
+      "percentage": 45.0,
+      "description": "HR provides fast and timely responses to employee queries and requests.",
+      "top_themes": [
+        {
+          "theme": "Fast resolution",
+          "percentage": 60.0,
+          "count": 270
+        },
+        {
+          "theme": "Timely support",
+          "percentage": 25.0,
+          "count": 113
+        },
+        {
+          "theme": "Quick turnaround",
+          "percentage": 15.0,
+          "count": 68
+        }
+      ],
+      "hr_function": "Payroll",
+      "country": "India",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Helpful Staff",
+      "count": 328,
+      "total_comments": 1000,
+      "percentage": 32.8,
+      "description": "HR team members are knowledgeable, friendly, and provide professional support to employees.",
+      "top_themes": [
+        {
+          "theme": "Knowledgeable team",
+          "percentage": 55.0,
+          "count": 180
+        },
+        {
+          "theme": "Friendly service",
+          "percentage": 30.0,
+          "count": 98
+        },
+        {
+          "theme": "Professional support",
+          "percentage": 15.0,
+          "count": 49
+        }
+      ],
+      "hr_function": "Benefits",
+      "country": "USA",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Easy to Use System",
+      "count": 222,
+      "total_comments": 1000,
+      "percentage": 22.2,
+      "description": "HR systems and tools are intuitive, user-friendly, and easy to navigate.",
+      "top_themes": [
+        {
+          "theme": "Intuitive interface",
+          "percentage": 50.0,
+          "count": 111
+        },
+        {
+          "theme": "Simple navigation",
+          "percentage": 30.0,
+          "count": 67
+        },
+        {
+          "theme": "User-friendly design",
+          "percentage": 20.0,
+          "count": 44
+        }
+      ],
+      "hr_function": "Recruitment",
+      "country": "UK",
+      "tier": "Tier 2"
+    }
+  ],
+  "negative_drivers": [
+    {
+      "driver_name": "System Downtime",
+      "count": 385,
+      "total_comments": 1000,
+      "percentage": 38.5,
+      "description": "HR systems experience frequent outages and unavailability issues.",
+      "top_themes": [
+        {
+          "theme": "Frequent outages",
+          "percentage": 55.0,
+          "count": 212
+        },
+        {
+          "theme": "System unavailable",
+          "percentage": 30.0,
+          "count": 116
+        },
+        {
+          "theme": "Access issues",
+          "percentage": 15.0,
+          "count": 58
+        }
+      ],
+      "hr_function": "Benefits",
+      "country": "USA",
+      "tier": "Tier 2"
+    },
+    {
+      "driver_name": "Slow Processing",
+      "count": 283,
+      "total_comments": 1000,
+      "percentage": 28.3,
+      "description": "HR processes take too long with delayed responses and slow system performance.",
+      "top_themes": [
+        {
+          "theme": "Long wait times",
+          "percentage": 50.0,
+          "count": 142
+        },
+        {
+          "theme": "Delayed responses",
+          "percentage": 30.0,
+          "count": 85
+        },
+        {
+          "theme": "Slow system performance",
+          "percentage": 20.0,
+          "count": 57
+        }
+      ],
+      "hr_function": "Payroll",
+      "country": "India",
+      "tier": "Tier 1"
+    },
+    {
+      "driver_name": "Complex Procedures",
+      "count": 187,
+      "total_comments": 1000,
+      "percentage": 18.7,
+      "description": "HR procedures involve too many steps with confusing processes and unclear instructions.",
+      "top_themes": [
+        {
+          "theme": "Too many steps",
+          "percentage": 45.0,
+          "count": 84
+        },
+        {
+          "theme": "Confusing process",
+          "percentage": 35.0,
+          "count": 65
+        },
+        {
+          "theme": "Unclear instructions",
+          "percentage": 20.0,
+          "count": 37
+        }
+      ],
+      "hr_function": "Learning",
+      "country": "Germany",
+      "tier": "Tier 3"
+    }
+  ],
+  "statistics": {
+    "total_responses": 2000,
+    "promoters": 1000,
+    "detractors": 1000,
+    "nps_score": 0.0
+  },
+  "last_updated": "2026-06-23T09:34:00Z"
+}
